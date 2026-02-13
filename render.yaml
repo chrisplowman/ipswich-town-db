@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ipswich-town-db
+    env: python
+    buildCommand: chmod +x build.sh start.sh && ./build.sh
+    startCommand: ./start.sh
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
