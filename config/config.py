@@ -9,11 +9,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Database Configuration
 DATABASE_CONFIG = {
-    'host': os.getenv('DB_HOST', 'localhost'),
+    'host': os.getenv('DB_HOST', 'dpg-d67jtcrnv86c739qhdn0-a'),
     'port': os.getenv('DB_PORT', 5432),
     'database': os.getenv('DB_NAME', 'ipswich_town_db'),
-    'user': os.getenv('DB_USER', 'itfc_admin'),
-    'password': os.getenv('DB_PASSWORD', 'your_secure_password')
+    'user': os.getenv('DB_USER', 'ipswich_town_db_user'),
+    'password': os.getenv('DB_PASSWORD', 'lRCz9kZO4uMCS8p3NTzJR4PVEarISwtB')
 }
 
 # API Keys
